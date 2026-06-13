@@ -7,7 +7,6 @@
 html, body{
     width: 100%;
     height: 200%;
-    background-color: rgb(122, 120, 120);
 }
 
 header{
@@ -15,6 +14,14 @@ header{
     height: 30px;
     justify-items: center;
     align-content: center;
+}
+
+.container1{
+    height: 100vh;
+    background-image: url("ChatGPT Image Jun 13, 2026, 10_17_53 PM.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
 }
 
 header pre{
@@ -119,4 +126,45 @@ nav{
     cursor: pointer;
     justify-content: center;
     font-size: 3vw;
+}
+
+.left_writeup{
+    height: 80vh;
+    margin-left: 2%;
+    align-content:end;
+}
+
+.left_writeup h1{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.left_writeup h1:hover{
+    cursor: grab;
+}
+
+.left_writeup p{
+    font-size: 16px;
+}
+
+.left_writeup p:hover{
+    cursor: grab;
+}
+
+.left_writeup button{
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(42, 40, 87);
+    height: 60px;
+}
+
+.left_writeup button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.2s ease-in-out;
 }
