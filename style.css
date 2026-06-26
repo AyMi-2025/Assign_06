@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Reckless;
+    src: url(fonts/RecklessCondensedS-TRIAL-Book.woff);
+}
+
+@font-face {
+    font-family: Roboto M;
+    src: url(fonts/RobotoMono-Medium.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,191 +16,81 @@
 
 html, body{
     width: 100%;
-    height: 200%;
+    height: 100%;
 }
 
 header{
+    color: white;
     background-color: rgb(42, 40, 87);
     height: 30px;
     justify-items: center;
     align-content: center;
 }
 
-.container1{
-    height: 100vh;
-    background-image: url("ChatGPT Image Jun 13, 2026, 10_17_53 PM.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
-}
-
-header pre{
-    color: white;
-    font-weight: 400;
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(251, 249, 235);
+    padding: 1vw;
+    position: relative;
 }
 
 nav{
-    position: absolute;
-    display: flex;
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 97%;
-    margin: 1%;
-    align-items: center;
-    height: 70px;
+    width: 100%;
     background-color: rgb(255, 254, 251);
-}
-
-.nav_left_side{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    width: 30%;
-    margin-left: 2%;
     display: flex;
-    gap: 7%
-}
-
-.nav_left_side p:hover{
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.2s ease-in-out;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3vw 1vw;
+    border-radius: 1vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .ri-arrow-drop-down-line{
-    font-size: 20px;
     background-color: rgb(192, 219, 255);
-    border-radius: 20px;
-}
-.ri-star-fill{
-    font-size: 20px;
-    color: rgb(233, 233, 15);
-}
-
-.nav_center img{
-    height: 50px;
-}
-.nav_center{
-    position: absolute;
-    justify-items: center;
-    width: 20%;
-    margin-left: 40%;
-}
-
-
-.nav_right_side{
-    margin-left: 27%;
-    display: flex;
-    font-size: 13px;
-    gap: 7%;
-}
-
-.nav_right_side pre{
-    position: relative;
-    cursor: pointer;
-    font-size: 1vw;
-    text-decoration: none;
-}
-
-.nav_right_side pre::after{
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px; 
-  bottom: -4px; 
-  left: 0;
-  background-color: #000000; 
-  transition: 0.3s ease-in-out;
-}
-
-.nav_right_side pre:hover{
-    font-weight: 600;
-}
-
-.ri-shopping-bag-line::after{
-  content: '';
-  position: absolute;
-  background-color: #000000; 
-  transition: 0.3s ease-in-out;
-}
-
-.nav_right_side pre:hover::after {
-  width: 100%; 
-}
-
-.ri-shopping-bag-line:hover::after {
-  width: 100%; 
-}
-
-.ri-shopping-bag-line{
-    margin-left: 8%;
-    cursor: pointer;
-    justify-content: center;
-    font-size: 3vw;
-}
-
-.left_writeup{
-    height: 80vh;
-    margin-left: 2%;
-    align-content:end;
-    width: 500px;
-}
-
-.left_writeup h1{
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-}
-
-.left_writeup h1:hover{
-    cursor: grab;
-}
-
-.left_writeup p{
-    font-size: 16px;
-
-}
-
-.left_writeup p:hover{
-    cursor: grab;
-}
-
-.left_writeup button{
-    color: white;
-    font-size: 20px;
     border-radius: 50px;
-    width: 200px;
-    background-color: rgb(42, 40, 87);
-    height: 60px;
-}
-
-.left_writeup button:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    transition: 0.2s ease-in-out;
-}
-
-.button1{
-    margin-left: 93%;
-    position: absolute;
-}
-
-.button1 p{
-    position: absolute;
-    align-content: center;
-    font-size: 20px;
-    width: 43px;
-    height: 45px;
-    border-radius: 20px;
     border: 1px solid black;
-    background-color: white;
-    padding: 10px;
 }
 
-.button1 :hover{
-    background-color: rgb(42, 40, 87);
-    color: white;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
+
+.ri-star-fill{
+    color: rgb(241, 241, 53);
+}
+
+nav .nav-part-1{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-family: Reckless;
+    font-weight: 100;
+    width: 33%;
+}
+
+nav .nav-part-2{
+    width: 5vw;
+    display: flex;
+    height: auto;
+}
+
+.nav-part-2 img{
+    width: 100%;
+}
+
+.nav-part-3{
+    display: flex;
+    width: 33%;
+    font-size: 0.6rem;
+    gap: 2vw;
+    align-items: center;
+    justify-content: end;
+    font-family: Roboto M;
+}
+
+#section-1{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
 }
