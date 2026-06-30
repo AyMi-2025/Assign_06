@@ -95,4 +95,23 @@ nav .nav-part-2{
     background-image: url('ChatGPT\ Image\ Jun\ 13\,\ 2026\,\ 10_17_53\ PM.png');
     background-size: contain;
     background-position: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 2vw;
+    align-items: start;
+}
+
+#section-1 h1{
+    font-size: 4rem;
+    max-width: 20vw;
+    font-family: Reckless;
+    color: white;
+    font-weight: 300;
+}
+
+#section-1 p{
+    font-size: 1rem;
+    font-family: Reckless;
+    font-weight: 300;
 }
