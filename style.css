@@ -43,6 +43,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: clamp(0.8);
     padding: 0.3vw 1vw;
     position: sticky;
     top: 0;
@@ -68,10 +69,11 @@ nav .nav-part-1{
     font-family: Reckless;
     font-weight: 100;
     width: 33%;
+    display: none;
 }
 
 nav .nav-part-2{
-    width: 5vw;
+    width: 10vw;
     display: flex;
     height: auto;
 }
@@ -88,6 +90,15 @@ nav .nav-part-2{
     align-items: center;
     justify-content: end;
     font-family: Roboto M;
+}
+
+.nav-part-3 h3{
+    font-weight: 300;
+    display: none;
+}
+
+.nav-part-3 svg{
+    width: 4vw;
 }
 
 #section-1{
@@ -121,8 +132,17 @@ nav .nav-part-2{
 }
 
 #section-1 button{
-    padding: 0.5vw 3vw;
+    padding: 0.8rem 3rem;
     background-color: rgb(42, 40, 87);
     color: white;
     border-radius: 1vw;
+}
+
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width: 1024px) {
+
 }
