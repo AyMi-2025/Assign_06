@@ -25,6 +25,7 @@ header{
     height: 30px;
     justify-items: center;
     align-content: center;
+    padding: 1vw;
 }
 
 main{
@@ -100,13 +101,14 @@ nav .nav-part-2{
     flex-direction: column;
     padding: 2vw;
     align-items: start;
+    gap: 1vw;
 }
 
 #section-1 h1{
     font-size: 4rem;
     max-width: 20vw;
     font-family: Reckless;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 300;
 }
 
@@ -114,4 +116,13 @@ nav .nav-part-2{
     font-size: 1rem;
     font-family: Reckless;
     font-weight: 300;
+    max-width: 23vw;
+    color: black;
+}
+
+#section-1 button{
+    padding: 0.5vw 3vw;
+    background-color: rgb(42, 40, 87);
+    color: white;
+    border-radius: 1vw;
 }
