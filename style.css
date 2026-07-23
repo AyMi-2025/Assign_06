@@ -182,4 +182,10 @@ nav i{
     font-size: 2rem;
     font-weight: 300;
 }
+
+.nav-part-3 h3{
+    font-weight: 300;
+    display: block;
+    white-space: nowrap;
+}
 }
