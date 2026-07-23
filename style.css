@@ -98,15 +98,15 @@ nav .nav-part-2{
 }
 
 .nav-part-3 svg{
-    width: 4vw;
+    width: 30%;
 }
 
 #section-1{
     width: 100%;
     height: 100vh;
     background-image: url('ChatGPT\ Image\ Jun\ 13\,\ 2026\,\ 10_17_53\ PM.png');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: 80%;
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -116,11 +116,12 @@ nav .nav-part-2{
 }
 
 #section-1 h1{
-    font-size: 4rem;
+    font-size: clamp(3rem,4vw,4rem);
     max-width: 20vw;
     font-family: Reckless;
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-weight: 500;
+    text-align: center;
 }
 
 #section-1 p{
@@ -143,6 +144,6 @@ nav .nav-part-2{
 
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 
 }
