@@ -19,6 +19,10 @@ html, body{
     height: 100%;
 }
 
+#menu-icon{
+    font-size: 25px;
+}
+
 header{
     color: white;
     background-color: rgb(42, 40, 87);
@@ -73,7 +77,8 @@ nav .nav-part-1{
 }
 
 nav .nav-part-2{
-    width: 10vw;
+    margin-left: 30%;
+    width: 8vw;
     display: flex;
     height: auto;
 }
@@ -98,7 +103,7 @@ nav .nav-part-2{
 }
 
 .nav-part-3 svg{
-    width: 30%;
+    width: 100%;
 }
 
 #section-1{
@@ -146,4 +151,35 @@ nav .nav-part-2{
 
 @media (max-width: 1024px) {
 
+    nav{
+    width: 100%;
+    background-color: rgb(255, 254, 251);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: clamp(0.8);
+    padding: 0.2vw 1vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+    nav .nav-part-1{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-family: Reckless;
+    font-weight: 100;
+    width: 33%;
+}
+
+nav i{
+    display: none;
+}
+
+.nav-part-1 h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
 }
