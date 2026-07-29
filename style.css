@@ -8,6 +8,11 @@
     src: url(fonts/RobotoMono-Medium.ttf);
 }
 
+@font-face {
+    font-family: Midnight;
+    src: url(fonts/midnight-sans-rd-12-medium-trial.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -118,6 +123,7 @@ nav .nav-part-2{
     padding: 2vw;
     align-items: start;
     gap: 1vw;
+    border-bottom: 1px solid black;
 }
 
 #section-1 h1{
@@ -144,7 +150,41 @@ nav .nav-part-2{
     border-radius: 1vw;
 }
 
+#section-2{
+    height: 100%;
+    width: 100%;
+    padding: 8rem 1rem;
+}
 
+#section-2 .section2-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: Reckless;
+}
+
+.section2-text h1{
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+}
+
+#section-2 >button{
+    padding: 0.1rem 0.5rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+    font-family: Midnight;
+    font-weight: 600;
+    background-color: #DAAEEA;
+    border-radius: 1.2rem;
+    rotate: -4deg;
+    letter-spacing: 2px;
+}
+
+/* ? MOBILE */
 @media (min-width:768px) {
  nav{
     width: 100%;
@@ -197,3 +237,4 @@ nav .nav-part-2{
 @media (max-width: 1024px){
     
 }
+
