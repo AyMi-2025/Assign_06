@@ -1,192 +1,294 @@
 @font-face {
-    font-family: Reckless;
-    src: url(fonts/RecklessCondensedS-TRIAL-Book.woff);
+  font-family: Reckless;
+  src: url(fonts/RecklessCondensedS-TRIAL-Book.woff);
 }
 
 @font-face {
-    font-family: Roboto M;
-    src: url(fonts/RobotoMono-Medium.ttf);
+  font-family: Roboto M;
+  src: url(fonts/RobotoMono-Medium.ttf);
 }
 
 @font-face {
+  font-family: Midnight;
+  src: url(fonts/midnight-sans-rd-12-medium-trial.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#menu-icon {
+  font-size: 25px;
+}
+
+header {
+  color: white;
+  background-color: rgb(42, 40, 87);
+  height: 30px;
+  justify-items: center;
+  align-content: center;
+  padding: 1vw;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(251, 249, 235);
+  padding: 1vw;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(255, 254, 251);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: clamp(0.8);
+  padding: 0.3vw 1vw;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.ri-arrow-drop-down-line {
+  background-color: rgb(192, 219, 255);
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.ri-star-fill {
+  color: rgb(241, 241, 53);
+}
+
+nav .nav-part-1 {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  font-family: Reckless;
+  font-weight: 100;
+  width: 33%;
+  display: none;
+}
+
+nav .nav-part-2 {
+  margin-left: 30%;
+  width: 8vw;
+  display: flex;
+  height: auto;
+}
+
+.nav-part-2 img {
+  width: 100%;
+}
+
+.nav-part-3 {
+  display: flex;
+  width: 33%;
+  font-size: 0.6rem;
+  gap: 2vw;
+  align-items: center;
+  justify-content: end;
+  font-family: Roboto M;
+}
+
+.nav-part-3 h3 {
+  font-weight: 300;
+  display: none;
+}
+
+.nav-part-3 svg {
+  width: 100%;
+}
+
+#section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("ChatGPT\ Image\ Jun\ 13\,\ 2026\,\ 10_17_53\ PM.png");
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  padding: 2vw;
+  align-items: start;
+  gap: 1vw;
+  border-bottom: 1px solid black;
+}
+
+#section-1 h1 {
+  font-size: clamp(3rem, 4vw, 4rem);
+  max-width: 20vw;
+  font-family: Reckless;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-align: center;
+}
+
+#section-1 p {
+  font-size: 1rem;
+  font-family: Reckless;
+  font-weight: 300;
+  max-width: 23vw;
+  color: black;
+}
+
+#section-1 button {
+  padding: 0.8rem 3rem;
+  background-color: rgb(42, 40, 87);
+  color: white;
+  border-radius: 1vw;
+}
+
+#section-2 {
+  height: 100%;
+  width: 100%;
+  padding: 8rem 1rem;
+}
+
+#section-2 .section2-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: Reckless;
+}
+
+.section2-text h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 300;
+  width: 70%;
+  text-align: center;
+}
+
+#section-2 > button {
+  padding: 0.1rem 0.5rem;
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-family: Midnight;
+  font-weight: 600;
+  background-color: #daaeea;
+  border-radius: 1.2rem;
+  rotate: -4deg;
+  letter-spacing: 2px;
+}
+
+#section-2 .card-container {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  overflow-x: auto;
+  gap: 0.6rem;
+}
+
+.card-container::-webkit-scrollbar{
+    display: hidden;
+}
+
+
+.card{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #c1ee91;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card-top-text {
     font-family: Midnight;
-    src: url(fonts/midnight-sans-rd-12-medium-trial.otf);
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    width: 100%;
-    height: 100%;
-}
-
-#menu-icon{
-    font-size: 25px;
-}
-
-header{
-    color: white;
-    background-color: rgb(42, 40, 87);
-    height: 30px;
-    justify-items: center;
-    align-content: center;
-    padding: 1vw;
-}
-
-main{
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(251, 249, 235);
-    padding: 1vw;
-    position: relative;
-}
-
-
-nav{
-    width: 100%;
-    background-color: rgb(255, 254, 251);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: clamp(0.8);
-    padding: 0.3vw 1vw;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-}
-
-.ri-arrow-drop-down-line{
-    background-color: rgb(192, 219, 255);
-    border-radius: 50px;
+.card-top-text button{
+    padding:  0.2rem 0.5rem;
+    border-radius: 0.2rem;
     border: 1px solid black;
+    background-color: white;
+    font-family: Midnight;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
-
-
-.ri-star-fill{
-    color: rgb(241, 241, 53);
-}
-
-nav .nav-part-1{
-    display: flex;
-    gap: 1rem;
-    font-size: 1rem;
-    font-family: Reckless;
-    font-weight: 100;
-    width: 33%;
-    display: none;
-}
-
-nav .nav-part-2{
-    margin-left: 30%;
-    width: 8vw;
-    display: flex;
-    height: auto;
-}
-
-.nav-part-2 img{
-    width: 100%;
-}
-
-.nav-part-3{
-    display: flex;
-    width: 33%;
-    font-size: 0.6rem;
-    gap: 2vw;
-    align-items: center;
-    justify-content: end;
-    font-family: Roboto M;
-}
-
-.nav-part-3 h3{
-    font-weight: 300;
-    display: none;
-}
-
-.nav-part-3 svg{
-    width: 100%;
-}
-
-#section-1{
-    width: 100%;
-    height: 100vh;
-    background-image: url('ChatGPT\ Image\ Jun\ 13\,\ 2026\,\ 10_17_53\ PM.png');
-    background-size: cover;
-    background-position: 80%;
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-    padding: 2vw;
-    align-items: start;
-    gap: 1vw;
-    border-bottom: 1px solid black;
-}
-
-#section-1 h1{
-    font-size: clamp(3rem,4vw,4rem);
-    max-width: 20vw;
-    font-family: Reckless;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    text-align: center;
-}
-
-#section-1 p{
-    font-size: 1rem;
-    font-family: Reckless;
-    font-weight: 300;
-    max-width: 23vw;
-    color: black;
-}
-
-#section-1 button{
-    padding: 0.8rem 3rem;
-    background-color: rgb(42, 40, 87);
-    color: white;
-    border-radius: 1vw;
-}
-
-#section-2{
-    height: 100%;
-    width: 100%;
-    padding: 8rem 1rem;
-}
-
-#section-2 .section2-text{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-top-text span{
     font-size: 1.2rem;
     font-family: Reckless;
 }
 
-.section2-text h1{
-    font-size: clamp(2rem, 5vw, 4rem);
-    font-weight: 300;
-    width: 70%;
-    text-align: center;
+.card-btm-text{
+    font-family: Reckless;
+    background-color: white;
+    padding: 0.6rem 0.8rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
 }
 
-#section-2 >button{
-    padding: 0.1rem 0.5rem;
-    font-size: 3rem;
-    margin-top: 5rem;
-    font-family: Midnight;
-    font-weight: 600;
-    background-color: #DAAEEA;
-    border-radius: 1.2rem;
-    rotate: -4deg;
-    letter-spacing: 2px;
+.card-top:hover img{
+    scale: 1.1;
+    transition: all ease 0.3s;
+}
+
+.card img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card-btm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: start;
+}
+
+.card-btm h1{
+    font-family: Reckless;
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+
+
+.card-btm h3{
+    font-family: Reckless;
+    font-weight: 100;
+    font-size: 1rem;
+
+}
+
+.card-btm p{
+    font-family: Reckless;
+    font-weight: 100;
+    font-size: 1.1rem;
+    color: #767676;
 }
 
 /* ? MOBILE */
-@media (min-width:768px) {
- nav{
+@media (min-width: 768px) {
+  nav {
     width: 100%;
     background-color: rgb(255, 254, 251);
     display: flex;
@@ -198,43 +300,39 @@ nav .nav-part-2{
     top: 0;
     left: 0;
     z-index: 999;
-}
+  }
 
-    nav .nav-part-1{
+  nav .nav-part-1 {
     display: flex;
     gap: 1rem;
     font-size: 0.2rem;
     font-family: Reckless;
     font-weight: 100;
     width: 33%;
-}
+  }
 
-
-
-nav i{
+  nav i {
     display: none;
-}
+  }
 
-.nav-part-1 h3{
+  .nav-part-1 h3 {
     font-size: 1.2rem;
     font-weight: 300;
-}
+  }
 
-.nav-part-3 h3{
+  .nav-part-3 h3 {
     font-weight: 300;
     display: block;
     white-space: nowrap;
-}
+  }
 
-nav .nav-part-2{
+  nav .nav-part-2 {
     margin-left: -7%;
     width: 8vw;
     display: flex;
     height: auto;
-}
-}
-
-@media (max-width: 1024px){
-    
+  }
 }
 
+@media (max-width: 1024px) {
+}
