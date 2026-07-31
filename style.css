@@ -188,11 +188,11 @@ nav .nav-part-2 {
   padding: 2rem 0;
   display: flex;
   overflow-x: auto;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
 .card-container::-webkit-scrollbar{
-    display: hidden;
+    display: none;
 }
 
 
