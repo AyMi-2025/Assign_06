@@ -288,6 +288,25 @@ nav .nav-part-2 {
     color: #767676;
 }
 
+.btttn button{
+  font-family: Figtree, sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: 23.4px;
+letter-spacing: 0.09px;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  background-color: #2A2857;
+  color: white;
+  border-radius: 2rem;
+}
+
+.btttn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ? MOBILE */
 @media (min-width: 768px) {
   nav {
