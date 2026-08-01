@@ -196,7 +196,146 @@ nav .nav-part-2 {
 }
 
 
-.card{
+.card1{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #c1ee91;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card2{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #C8E892;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card3{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #B0E8C1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card4{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #CCE3FF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+.card5{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #FFD884;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+.card6{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #C1E4F8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card7{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #C0E571;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+.card8{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #FFCB96;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card9{
+  padding: 1rem;
+  width: 35vh;
+  height: 40vh;
+  background-color: #AEE0F9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+
+.card10{
   padding: 1rem;
   width: 35vh;
   height: 40vh;
@@ -252,7 +391,83 @@ nav .nav-part-2 {
     transition: all ease 0.3s;
 }
 
-.card img {
+.card1 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card2 img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card3 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card4 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+
+.card5 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+
+.card6 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+
+.card7 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+
+.card8 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card9 img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+}
+
+.card10 img {
   height: 90%;
   width: 100%;
   object-fit: cover;
@@ -302,9 +517,45 @@ letter-spacing: 0.09px;
 }
 
 .btttn{
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-3 button {
+  padding: 0.1rem 0.5rem;
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-family: Midnight;
+  font-weight: 600;
+  background-color: #73BC25;
+  border-radius: 1.2rem;
+  rotate: -4deg;
+  letter-spacing: 2px;
+}
+
+
+.section-3 {
+  height: 100%;
+  width: 100%;
+  padding: 8rem 1rem;
+}
+
+.section-3 .section3-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: Reckless;
+}
+
+.section3-text h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 300;
+  width: 70%;
+  text-align: center;
 }
 
 /* ? MOBILE */
