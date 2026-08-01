@@ -88,7 +88,7 @@ nav .nav-part-2 {
 }
 
 .nav-part-2 img {
-  width: 100%;
+  width: 170%;
 }
 
 .nav-part-3 {
@@ -228,6 +228,8 @@ nav .nav-part-2 {
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+
 .card-top-text span{
     font-size: 1.2rem;
     font-family: Reckless;
@@ -332,6 +334,12 @@ nav .nav-part-2 {
     display: flex;
     height: auto;
   }
+
+
+  .section2-text h1 {
+  width: 80%;
+}
+
 }
 
 @media (max-width: 1024px) {
