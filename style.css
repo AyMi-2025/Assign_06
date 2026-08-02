@@ -558,6 +558,75 @@ letter-spacing: 0.09px;
   text-align: center;
 }
 
+.section-4{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.caard{
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #F5AF8A;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #EA6D44;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box img{
+  width: 3rem;
+}
+
+.btm-box button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
+
 /* ? MOBILE */
 @media (min-width: 768px) {
   nav {
