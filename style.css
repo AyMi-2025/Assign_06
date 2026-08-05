@@ -566,7 +566,7 @@ letter-spacing: 0.09px;
   overflow-x: auto;
 }
 
-.caard{
+.caard1{
   display: flex;
   flex-direction: column;
   gap: 27%;
@@ -579,7 +579,7 @@ letter-spacing: 0.09px;
   border: 1px solid black;
 }
 
-.caard h3{
+.caard1 h3{
 
   display: flex;
   justify-content: center;
@@ -589,7 +589,7 @@ letter-spacing: 0.09px;
   font-family: Reckless;
 }
 
-.caard p{
+.caard1 p{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -599,7 +599,7 @@ font-size: 0.9rem;
 color: rgb(111, 110, 109);
 }
 
-.btm-box{
+.btm-box1{
   border: 1px solid black;
   border-radius: 1rem;
   background-color: #EA6D44;
@@ -609,7 +609,7 @@ color: rgb(111, 110, 109);
   align-items: center;
 }
 
-.btm-box h1{
+.btm-box1 h1{
   font-family: Figtree, sans-serif;
 font-weight: 500;
 font-size: 0.8rem;
@@ -617,16 +617,332 @@ color: white;
 text-align: start;
 }
 
-.btm-box img{
+.btm-box1 img{
   width: 3rem;
 }
 
-.btm-box button{
+.btm-box1 button{
   font-size: 1rem;
   padding: 1rem 1.3rem;
   border-radius: 2rem;
 }
 
+
+
+.caard1{
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #F5AF8A;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard1 h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard1 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box1{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #EA6D44;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box1 h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box1 img{
+  width: 3rem;
+}
+
+.btm-box1 button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
+
+
+
+
+.caard2{
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #ABDF74;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard2 h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard2 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box2{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #73BC25;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box2 h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box2 img{
+  width: 3rem;
+}
+
+.btm-box2 button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
+
+
+
+
+.caard3{
+  display: flex;
+  flex-direction: column;
+  gap: 33%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #FFD265;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard3 h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard3 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box3{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #FFB500;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box3 h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box3 img{
+  width: 3rem;
+}
+
+.btm-box3 button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
+
+
+
+.caard4{
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #ADE674;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard4 h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard4 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box4{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #8BC045;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box4 h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box4 img{
+  width: 3rem;
+}
+
+.btm-box4 button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
+
+
+
+.caard5{
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+  text-align: center;
+  padding: 9rem 1.3rem;
+  background-color: #F5AF8A;
+  width: 35vh;
+  height: 60vh;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.caard5 h3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 200;
+  font-family: Reckless;
+}
+
+.caard5 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.9rem;
+color: rgb(111, 110, 109);
+}
+
+.btm-box5{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #EA6D44;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btm-box5 h1{
+  font-family: Figtree, sans-serif;
+font-weight: 500;
+font-size: 0.8rem;
+color: white;
+text-align: start;
+}
+
+.btm-box5 img{
+  width: 3rem;
+}
+
+.btm-box5 button{
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+}
 /* ? MOBILE */
 @media (min-width: 768px) {
   nav {
