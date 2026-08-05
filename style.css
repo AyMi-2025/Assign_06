@@ -171,7 +171,7 @@ nav .nav-part-2 {
   text-align: center;
 }
 
-#section-2 > button {
+#bb {
   padding: 0.1rem 0.5rem;
   font-size: 3rem;
   margin-top: 5rem;
@@ -823,7 +823,8 @@ text-align: start;
 .caard4{
   display: flex;
   flex-direction: column;
-  gap: 27%;
+  gap: 39%;
+  justify-content: space-evenly;
   text-align: center;
   padding: 9rem 1.3rem;
   background-color: #ADE674;
@@ -889,7 +890,7 @@ text-align: start;
   gap: 27%;
   text-align: center;
   padding: 9rem 1.3rem;
-  background-color: #F5AF8A;
+  background-color: #D9C2E1;
   width: 35vh;
   height: 60vh;
   border-radius: 1rem;
@@ -919,7 +920,7 @@ color: rgb(111, 110, 109);
 .btm-box5{
   border: 1px solid black;
   border-radius: 1rem;
-  background-color: #EA6D44;
+  background-color: #C790DB;
   padding: 0.3rem;
   display: flex;
   justify-content: space-between;
